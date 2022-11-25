@@ -140,7 +140,7 @@ class DataBase{
         }
     }
     
-    //Полный список преподавателей
+    //Полный список студентов
     func getStudentsList(){
         print("\nCПИСОК СТУДЕНТОВ")
         var count = 0
