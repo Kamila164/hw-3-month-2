@@ -29,6 +29,7 @@ class DataBase{
         teachers.append(modelTeachers)
     }
     
+    //Добавление в массив
     func addTeacher(name: String, surname: String, subject: String){
         let model = getModelTeacher(name: name, surname: surname, subject: subject)
         if model.name == name && model.surname == surname && model.subject == subject{
@@ -39,6 +40,7 @@ class DataBase{
         }
     }
     
+    //Удаление из массива
     func deleteTeacher(name: String, surname: String){
         let model = sortTeacher(name: name, surname: surname)
         if model.name == name && model.surname == surname{
@@ -53,6 +55,7 @@ class DataBase{
         }
     }
     
+    //Поиск в массиве
     func searchTeacher(name: String, surname: String){
         let model = sortTeacher(name: name, surname: surname)
         if model.name == name && model.surname == surname{
@@ -62,6 +65,7 @@ class DataBase{
         }
     }
     
+    //Полный список преподавателей
     func getTeacherList(){
         print("\nCПИСОК ПРЕПОДАВАТЕЛЕЙ")
         var count = 0
@@ -100,6 +104,7 @@ class DataBase{
         students.append(modelStudents)
     }
     
+    //Добавление в массив
     func addStudents(name: String, surname: String, age: Int, group: String, averageMark: Double){
         let model = getModel(name: name, surname: surname, age: age, group: group, averageMark: averageMark)
         if model.name == name && model.surname == surname && model.age == age && model.group == group && model.averageMark == averageMark{
@@ -110,6 +115,7 @@ class DataBase{
         }
     }
     
+    //Удаление из массива
     func deleteStudents(name: String, surname: String){
         let model = sortStudents(name: name, surname: surname)
         if model?.name == name && model?.surname == surname{
@@ -124,6 +130,7 @@ class DataBase{
         }
     }
     
+    //Поиск в массиве
     func searchStudents(name: String, surname: String){
         let model = sortStudents(name: name, surname: surname)
         if model != nil{
@@ -133,6 +140,7 @@ class DataBase{
         }
     }
     
+    //Полный список преподавателей
     func getStudentsList(){
         print("\nCПИСОК СТУДЕНТОВ")
         var count = 0
