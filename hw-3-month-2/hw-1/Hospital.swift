@@ -40,8 +40,12 @@ class Hospital{
     func delete(name: String, surname: String, dateOfBirth: String, diagnosis: String){
         let modelThree = sortPatient(name: name, surname: surname, dateOfBirth: dateOfBirth, diagnosis: diagnosis)
         if modelThree.name == name && modelThree.surname == surname && modelThree.dateOfBirth == dateOfBirth && modelThree.diagnosis == diagnosis{
-            patient.removeAll()
-            print("Пациент удален")
+            for (id, item) in patient.enumerated(){
+                if item.name == name && item.surname == surname{
+                    patient.remove(at: id)
+                    print("Пациент \(name) \(surname) удален")
+                }
+            }
         }else{
             print("Такого пациента нет")
         }

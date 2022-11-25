@@ -10,6 +10,9 @@
 		8E1CDEED292E91E800EF95D0 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1CDEEC292E91E800EF95D0 /* main.swift */; };
 		8E1CDEF4292E91F700EF95D0 /* Hospital.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1CDEF3292E91F700EF95D0 /* Hospital.swift */; };
 		8E1CDEF6292E922A00EF95D0 /* Patient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1CDEF5292E922A00EF95D0 /* Patient.swift */; };
+		8E1CDEFA2931376600EF95D0 /* DataBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1CDEF92931376600EF95D0 /* DataBase.swift */; };
+		8E1CDEFC2931377600EF95D0 /* Students.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1CDEFB2931377600EF95D0 /* Students.swift */; };
+		8E1CDEFE2931378000EF95D0 /* Teachers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1CDEFD2931378000EF95D0 /* Teachers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,6 +32,9 @@
 		8E1CDEEC292E91E800EF95D0 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		8E1CDEF3292E91F700EF95D0 /* Hospital.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hospital.swift; sourceTree = "<group>"; };
 		8E1CDEF5292E922A00EF95D0 /* Patient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Patient.swift; sourceTree = "<group>"; };
+		8E1CDEF92931376600EF95D0 /* DataBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataBase.swift; sourceTree = "<group>"; };
+		8E1CDEFB2931377600EF95D0 /* Students.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Students.swift; sourceTree = "<group>"; };
+		8E1CDEFD2931378000EF95D0 /* Teachers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Teachers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,10 +68,29 @@
 			isa = PBXGroup;
 			children = (
 				8E1CDEEC292E91E800EF95D0 /* main.swift */,
+				8E1CDEF82931370A00EF95D0 /* hw-2 */,
+				8E1CDEF729312AFB00EF95D0 /* hw-1 */,
+			);
+			path = "hw-3-month-2";
+			sourceTree = "<group>";
+		};
+		8E1CDEF729312AFB00EF95D0 /* hw-1 */ = {
+			isa = PBXGroup;
+			children = (
 				8E1CDEF3292E91F700EF95D0 /* Hospital.swift */,
 				8E1CDEF5292E922A00EF95D0 /* Patient.swift */,
 			);
-			path = "hw-3-month-2";
+			path = "hw-1";
+			sourceTree = "<group>";
+		};
+		8E1CDEF82931370A00EF95D0 /* hw-2 */ = {
+			isa = PBXGroup;
+			children = (
+				8E1CDEF92931376600EF95D0 /* DataBase.swift */,
+				8E1CDEFB2931377600EF95D0 /* Students.swift */,
+				8E1CDEFD2931378000EF95D0 /* Teachers.swift */,
+			);
+			path = "hw-2";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,6 +153,9 @@
 			files = (
 				8E1CDEED292E91E800EF95D0 /* main.swift in Sources */,
 				8E1CDEF4292E91F700EF95D0 /* Hospital.swift in Sources */,
+				8E1CDEFE2931378000EF95D0 /* Teachers.swift in Sources */,
+				8E1CDEFC2931377600EF95D0 /* Students.swift in Sources */,
+				8E1CDEFA2931376600EF95D0 /* DataBase.swift in Sources */,
 				8E1CDEF6292E922A00EF95D0 /* Patient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
